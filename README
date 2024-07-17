@@ -1,0 +1,2 @@
+ .\node_modules\.bin\tsc -w ==> watch mode transcrire les fichiers ts en js
+ Puis demarer live server
