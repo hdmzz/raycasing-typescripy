@@ -25,6 +25,8 @@ const GRID_COLUMNS = 10;
     };
 
     for (let y = 0; y <= GRID_COLUMNS; y++) {
-        
+        ctx.moveTo(0, y*cellHeight);
+        ctx.lineTo(canva.width, y*cellHeight);
+        ctx.stroke();
     }
 })();
